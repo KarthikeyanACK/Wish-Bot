@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .image-container img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Media queries for responsiveness */
+        @media screen and (max-width: 768px) {
+            .image-container img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Happy Birthday Arun!</h1>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <img src="https://media.istockphoto.com/id/1329127426/vector/little-birthday-boy-blowing-candles-on-a-cake-vector-illustration.jpg?s=612x612&w=0&k=20&c=AzuRfI2Uhe_L8GWcVYapFRSU6PhLe7D2cSXkj5bjB6Q=" alt="Birthday Image 1">
+
+            <img src="https://cdn.giftstoindia24x7.com/ASP_Img/IMG2000/GTI0241.jpg" alt="Birthday Image 2">
+
+            <img src="https://m.media-amazon.com/images/I/718U50p4+uL.jpg" alt="Birthday Image 3">
+        </div>
+    </main>
+
+    <footer>
+        <p>Best wishes on your special day!</p>
+    </footer>
+
+</body>
+
+</html>
